@@ -1,0 +1,323 @@
+
+  
+    @media (max-width:576px){
+     
+      h1{
+      font-size: 15px;
+      }
+      .menu_wrapper{
+        display: block;
+      }
+      .my_list_items > ul{
+          display: flex;
+          flex-direction: column;
+      }
+      ul {
+        list-style: none;
+      }
+      .your_host {
+      flex-wrap: wrap;
+        display: flex;
+        text-align: center;
+        flex-direction: column;
+      }
+      #your_host{
+        padding: 5rem 0rem 0rem 2rem;
+      }
+      .your_host_box{
+        display: flex;
+    justify-content: center;
+    flex-basis: 50%;
+      }
+      #your_host_box > img{
+        width: 250px;
+        margin-top: 5rem;
+      }
+      
+      .your_host_text > p {
+        width: 100%;
+      }
+      #hamburger {
+        color: white;
+       display: flex;
+      }
+     
+      .header-main-text{
+        text-align: center;
+      }
+      .header_main > .hamburger_wrapper{
+       width: 50%;
+      }
+      
+      .items_list{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding: 0;
+        margin: 0;
+       }
+       .items_list > li{
+        text-align: center;
+      }
+      #email {
+        height: 35px;
+        width: 162.32px;
+        margin-top: 2%;
+        margin-left: 6rem;
+        color: white;
+        border: 2px solid grey;
+        background-color: blue;
+        font-size: medium;
+        font-weight: bold;
+        text-decoration: none;
+      }
+      #contact_us{
+        display: flex;
+        flex-direction: column;
+        height: auto;
+      }
+      .back_to_top{
+        margin-bottom: 2rem;
+      }
+      footer {
+        width: 100%;
+       
+      }
+      }
+
+      @media screen and (max-width: 768px) {
+      
+        .your_host {
+          display: flex;
+          justify-content: center;
+          flex-direction: column;
+          flex-wrap: wrap;
+          width: auto;
+          padding-top: 10%;
+        }
+      
+        .your_host_text > p {
+          width: 100%;
+        }
+        #menu {
+          display: flex;
+          justify-content: center;
+        }
+      
+        ul {
+          list-style: none;
+        }
+      }
+      #navigation {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+      }
+  
+ 
+
+  
+  
+  
+
+body {
+  padding: 0;
+  margin: 0;
+  background: linear-gradient(brown, blue);
+}
+
+header {
+  position: fixed;
+  background-color: black;
+  min-height: 10vh;
+  padding-top: 0%;
+  width: 100%;
+  margin-bottom: 1px;
+}
+
+li {
+  list-style-type: style none;
+}
+li:hover {
+  background: (blue);
+  font-size: large;
+}
+
+h2 {
+  margin-left: 2rem;
+  color: white;
+  margin-bottom: 0;
+}
+h3 {
+  color: white;
+}
+P {
+  color: white;
+}
+span {
+  color: white;
+  padding-bottom: 1rem;
+  font-size: 22px;
+}
+section {
+  min-height: 45vh;
+}
+#pic {
+  width: 150px;
+  height: 150px;
+}
+#galley_pic {
+  width: 275px;
+  height: 175px;
+}
+#our_local_sources_pic {
+  width: 200px;
+  height: 200px;
+}
+#wine_pic {
+  width: 200px;
+  height: 150px;
+}
+#dinning_pic {
+  width: 200px;
+  height: 150px;
+}
+.header-main-text {
+  text-decoration: white;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  padding: 0.5rem;
+}
+
+.header-main {
+  background-color: black;
+  position: fixed;
+  display: flex;
+  justify-content: space-between;
+  max-height: vh;
+  width: 100%;
+}
+.my_list {
+  display: flex;
+  width: 60%;
+}
+.my_list_items {
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+.my_list_items > ul {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+}
+.my_list_items > ul > li > a {
+  text-decoration: none;
+  color: white;
+}
+
+.your_host {
+  justify-content: space-around;
+  display: flex;
+  text-align: center;
+  width: auto;
+  padding-top: 10%;
+  padding: 5%;
+}
+#your_host_box {
+  margin-top: 10%;
+  display: flex;
+  align-self: baseline;
+}
+.your_host_text {
+  color: white;
+  display: flex;
+  justify-content: center;
+  margin-top: 10%;
+}
+
+.our_menu {
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+  flex-direction: row;
+  width: auto;
+  padding: 5%;
+}
+.our_wines_and_cocktails {
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+  flex-direction: row;
+  width: auto;
+  padding: 5%;
+}
+
+.our_local_sources {
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+  flex-direction: row;
+  width: auto;
+  padding: 5%;
+}
+.our_galley {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  flex-direction: row;
+  width: auto;
+  padding: 5%;
+}
+.dinning_rooms {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  flex-direction: row;
+  width: auto;
+  padding: 5%;
+  animation: forwards;
+}
+
+.contacts {
+  display: flex;
+  text-align: center;
+  flex-direction: row;
+  width: auto;
+  padding: 5%;
+}
+button {
+  margin-top: 25%;
+  background-color: blue;
+  text-decoration: white;
+  font-family: "Times New Roman", Times, serif;
+  font-weight: bold;
+}
+button:hover {
+  background: linear-gradient(blue, brown);
+}
+#email {
+  height: 35px;
+  width: 162.32px;
+  margin-top: 2%;
+  color: white;
+  border: 2px solid grey;
+  background-color: blue;
+  font-size: medium;
+  font-weight: bold;
+  text-decoration: none;
+}
+#email:hover {
+  background: linear-gradient(blue, brown);
+}
+footer {
+  background-color: black;
+  display: flex;
+  text-align: center;
+  justify-content: space-evenly;
+  flex-direction: row;
+  width: auto;
+  height: 15vh;
+}

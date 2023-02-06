@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styleresto.css" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato%7CSigmar+One&display=swap"/>
+    <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0/css/all.min.css"/>
+    <title>Document</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  
+  </head>
+  <body>
+    <header>
+
+      <div class="header_main">
+        <div class="header_main_text">
+          <h2>S/Y DIONE STAR <br>'DINE IN STYLE'</h2>
+        </div>
+
+      <div class="menu_wrapper">
+
+        <div class="hamburger_wrapper">
+          <i id="hamburger" class="fas fa-bars fa-2x"></i>
+        </div>
+
+        <nav class="my_list_items">
+
+          <ul class="items_list" id="items_list">
+            <li><a href="#your_host">YOUR HOST</a></li>
+            <li><a href="#our_menu">OUR MENU</a></li>
+            <li>
+              <a href="#our_wines_and_cocktails">OUR WINES AND COCKTAILS</a>
+            </li>
+            <li><a href="#our_local_sources">OUR LOCAL SOURCES</a></li>
+            <li><a href="#our_galley">OUR GALLEY</a></li>
+            <li><a href="#dinning_rooms">OUR DINNING ROOMS</a></li>
+            <li><a href="#contact_us">CONTACT US</a></li>
+          </ul>
+        </nav>
+      </div>
+      </div>
+    </header>
+    <div class="menu_text">
+      <h2>LAMB DELISIOSO</h2>
+      <p>
+        Slow cooked lamb shank with a red wine reduction, <br />
+        with a side of homemade pasta and honey glazed carrots.
+      </p>
+    </div> 
+    <div>
+        <h2>PRAWNILICIOUS</h2>
+        <p>Grilled king prawn with on a bed of fresh salsa, <br>
+        and homemade guacamole.</p>
+    </div>
+    <div>
+        <h2>SHRIMP FRENZY</h2>
+        <P>Fresh pan-grilled shrimp, green beans and island potatoes.</P>
+    </div>
+    <div>
+        <h2>TUNA AHOY</h2>
+        <p>Fresh caught seared ahi tuna and tomadios whith a balsamic reduction.</p>
+    </div>
+    <div>
+        <h2>HOT RACK</h2>
+        <P>Spicy rack of lamb with fresh beans on a bed of home-made smashed potatoes.</P>
+    </div>
+    <div>
+        <h2>GOLDEN CHICK</h2>
+        <P>Crispy yet tender local chicken breast atop coconut risotto and local greens.</P>
+    </div>
+    <div>
+        <h2>VEGGIE DELIGHT</h2>
+        <p>Tofu tempura with fresh local greens.</p>
+    </div>
+    <footer id="contact_us">
+    <a id="email" href="mailto:benoitmarriet@gmail.com">RESERVE YOUR TABLE</a>
+    <img src="imagesresto/logo.png" alt="logo" />
+    <a class="back_to_top" href="#">
+      <button type="button" class="button">
+        <span class="button__text">Back to top</span>
+      </button>
+    </a>
+  </footer>
+
+  <script type="text/javascript">
+
+    $(document).ready(function () {
+
+        $('#hamburger').on('click', function () {
+            if ($('#items_list').css('display') == 'none') {
+                $('#items_list').css('display', 'block');
+                $('#items_list').css('display', 'flex');
+            }
+            else {
+                $('#items_list').css('display', 'none');
+            }
+        });
+
+    });
+    </script>
+  </body>
+</html>
